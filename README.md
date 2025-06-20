@@ -1,21 +1,21 @@
-# Mini Shell de Unix en C
+# Mini Unix Shell in C
 
-Proyecto de una Shell simplificada para Sistemas Operativos.
+A simplified Shell project for Operating Systems.
 
-Este programa simula un intérprete de comandos básico al estilo de Bash, con soporte para:
+This program simulates a basic command-line interpreter similar to Bash, with support for:
 
-- Comandos en primer y segundo plano
-- Señales del sistema
-- Control de trabajos (`jobs`, `fg`, `bg`)
-- Comandos internos (`cd`, `logout`)
+- Foreground and background commands
+- System signals
+- Job control (`jobs`, `fg`, `bg`)
+- Built-in commands (`cd`, `logout`)
 
 ---
 
-## Estructura del proyecto
+## Project Structure
 
 ```bash
 .
-├── ProyectoShell.c      # Programa principal de la Shell
-├── ApoyoTareas.c        # Funciones auxiliares para control de procesos
-├── ApoyoTareas.h        # Prototipos y definiciones
-└── README.md            # Este archivo
+├── ProyectoShell.c      # Main Shell program
+├── ApoyoTareas.c        # Helper functions for process control
+├── ApoyoTareas.h        # Prototypes and definitions
+└── README.md            # This file
